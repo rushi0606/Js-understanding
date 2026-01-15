@@ -35,6 +35,7 @@ console.log(myArr1);
 console.log(myArr);
 
 console.log("B", myArr);
-const myArr2 = myArr.splice(1, 3)  //give seperate array of splice elem and add first index elem and last index elem as well and will remove splice elem from orignal arr
+const myArr2 = myArr.splice(1, 3)  //it will remove splice elem from orignal arr
+//in splice it is from index number and how many values in last
 console.log(myArr2);
 console.log(myArr);
