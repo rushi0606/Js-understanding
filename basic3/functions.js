@@ -22,3 +22,20 @@ function addTwoValues(value1, value2){
 }
 const result = addTwoValues(3, 5)
 console.log("Result:",result);
+
+function loginUserMessage(username){
+    return `${username} just logged in`
+}
+console.log(loginUserMessage("Rushikesh"));
+console.log(loginUserMessage("")); //when you pass empty value it will show just logged in
+console.log(loginUserMessage());  //and when you don't pass value it will show undefined just logged in
+
+
+function loginUserMessage(username){
+    if(username === undefined){       //(username === undefined) = (!username)
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+console.log(loginUserMessage()); 
