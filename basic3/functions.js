@@ -39,3 +39,18 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 console.log(loginUserMessage()); 
+
+
+//parameter passing
+
+function calculateCartPrice(...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 2000));
+//here even if you pass single parameter and multiple arguments, Rest operator will give the output in the form of array
+
+function calculateCart(val1, val2, ...num1){
+    return num1
+}
+console.log(calculateCart(200, 400, 500, 2000));
+//here val1 will be 200 and val2 will be 400 and num1 will return 500 and 2000
