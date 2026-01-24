@@ -18,7 +18,7 @@ addTwoNumbers(3, 4)
 function addTwoValues(value1, value2){
     let result = value1 + value2
     return result
-    console.log("Rushi"); //it will not execute because after returning value the below code des not execute
+    console.log("Rushi"); //it will not execute because after returning value the below code does not execute
 }
 const result = addTwoValues(3, 5)
 console.log("Result:",result);
