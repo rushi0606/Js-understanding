@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>understanding js</title>
+</head>
+<body style="background-color: black; color: white;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+    
+    for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+    }
+
+    parent.children[1].style.color = "yellow"  //style second element
+
+    console.log(parent.firstElementChild);   //gives first elem
+    console.log(parent.lastElementChild);   //gives last elem
+    
+
+    const dayone = document.querySelector('.day')
+    console.log(dayone);
+    console.log(dayone.parentElement);   //gives parent elements elem
+    console.log(dayone.nextElementSibling);  //gives next elem
+
+
+    console.log("NODES: ", parent.childNodes);    //counts nodes as well as line breaks
+    
+</script>
+</html>
