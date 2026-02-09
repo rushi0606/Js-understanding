@@ -34,4 +34,3 @@ console.log(newOneString.trim());  //it trims the unwanted space
 const url = "https://rushi.com/rushi%20ingale"
 console.log(url.replace('%20', '-'));
 console.log(url.includes('sundar'));  //this will give true or false for whether it is present or not 
-
