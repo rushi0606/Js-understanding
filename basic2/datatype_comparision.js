@@ -14,6 +14,3 @@ console.log("2" === 2); //strictly checks the datatypes
 console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0); // comparision >=,<=,<,> converts null to 0.
-
-
-
