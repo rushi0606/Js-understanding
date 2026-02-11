@@ -37,4 +37,3 @@ console.log(str3);
 
 console.log("1" + 2 + 2); // when string is first the next values are also considered as string
 console.log(1 + 2 + "2"); // when operation is first then it is performed first and then string is attached
-
