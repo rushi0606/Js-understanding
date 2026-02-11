@@ -34,7 +34,7 @@
  console.log(JsUser.greeting());
  console.log(JsUser.greetingTwo());
  
- Object.freeze(JsUser)  //it doesn't allow any update after this command
+//  Object.freeze(JsUser)  //it doesn't allow any update after this command
 
  JsUser.name = "Rushi"
  console.log(JsUser["name"]);  //name is still Rushikesh
@@ -81,7 +81,7 @@ const course = {
     price: "999",
     courseInstructor: "Hitesh"
 }
-// console.log(course.courseInstructor);
+console.log(course.courseInstructor);
 
 const {courseInstructor: instructor} = course //here key courseInstructor is de-structured and given another name 
 console.log(instructor);
