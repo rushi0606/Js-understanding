@@ -11,7 +11,7 @@ sayMyName() //execute the code
 function addTwoNumbers(number1, number2){
     console.log(number1 + number2);
 }
-// addTwoNumbers() it will give NaN because the values are nnot passed
+// addTwoNumbers() it will give NaN because the values are not passed
 addTwoNumbers(3, 4)
 
 
@@ -22,6 +22,7 @@ function addTwoValues(value1, value2){
 }
 const result = addTwoValues(3, 5)
 console.log("Result:",result);
+
 
 function loginUserMessage(username){
     return `${username} just logged in`
@@ -38,7 +39,7 @@ function loginUserMessage(username){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage()); 
+console.log(loginUserMessage("")); 
 
 
 //parameter passing
@@ -48,6 +49,7 @@ function calculateCartPrice(...num1){
 }
 console.log(calculateCartPrice(200, 400, 500, 2000));
 //here even if you pass single parameter and multiple arguments, Rest operator will give the output in the form of array
+
 
 function calculateCart(val1, val2, ...num1){
     return num1
