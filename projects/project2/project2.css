@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.cotainer {
+    background: white;
+    width: 400px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+}
+
+/* Form */
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 96%;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Result */
+#results {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Guide */
+#weight-guide {
+    margin-top: 45px;
+    font-size: 12px;
+}
