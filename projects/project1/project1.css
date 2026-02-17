@@ -10,16 +10,6 @@ body {
     text-align: center;
 }
 
-nav {
-    background: #222;
-    padding: 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
-}
 
 .canvas {
     margin-top: 100px;
